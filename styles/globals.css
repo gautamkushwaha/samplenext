@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background:white;
+  color: #333;
+  font-family: "Nunito";
+}
+.weather {
+  filter: brightness(1); /* set initial brightness to 1 */
+  transition: filter 0.5s ease-in-out; /* add a transition effect for smooth animation */
+}
+
+.weather:hover {
+  filter: brightness(0.5); /* set brightness to 0.5 on hover */
+}
+
+/* Link{
+  margin: 5px 5px ;
+  padding:2px 2px;
+} */
+
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  padding: 20px
+}
+
+.form input {
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 5px;
+
+}
+ */
